@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_fast_facts">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="W I N E   R O A D S"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="110dp"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="270dp"
+        android:layout_marginTop="212dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Wine Roads of Northern Greece is a tourism programme, quite innovative for Greece, that developed out of the joint efforts of the Wine Producers Association members of the Northern Greece Vineyard. It is one more form of alternative tourism, wine tourism, and an innovative proposal addressed to Greek and foreign visitors, so that they approach the rich vineyard regions of Northern Greece, in order to discover their special local characteristics, get to know the everyday life and work of wine-producers, and participate in numerous cultural events and activities.
+\n\r\nA walk to a vineyard means escape from the routine of the city, good food, and of course the aroma and taste of wine, that is in perfect harmony with the land and the atmosphere. It is actually an excursion proposal that leads to the picturesque sites of the vineyard area. The guided tour does not leave out the wonderful environment or the archaeological sites, the churches, the monasteries, the museums, and the buildings of folk and cultural interest; it usually closes with the rich tradition of the local cuisine found in taverns, ouzeri and hotels.
+\n\r\nNaousa is the most famous wine producing region in Northern Greece. It is the ripening place of the most exceptional variety of northern Greece, xynomavro (acid black), and there are many wineries one can visit. Domaine Boutari in Stenimachos, Dalamaras in Naousa, Domaine Chrysohoou and Domaine Founti in Nea Strantza, Domain Kyr-Yanni in Yannakochori, and Vaeni Naousa in Episkopi.
+\n\r\nIt is true that all over Greece and in all the places where Greeks lived, we observe that they showed special care for wine production; before they drank wine, they offered some to the gods and “prayed that that cordial liquor may prove might prove good and wholesome”, as Plutarch mentions in his Symposiacs.
+\n\r\nIn ancient Greece, the vine is present in all depiction of Bacchus, because it was the symbol of the god. The theme of vine is presented in Judaic religion as well, while Christianity adopted the symbol of the vine, which influenced both Christian hymnography and art. Today, wine symbolizes reincarnation in Christ’s blood, while it always accompanies people in moments of joy, celebration, in weddings, even in death.
+\n\r\nNow Philonides the physician, in his treatise on Ointments and Garlands, says: “After the vine was introduced into Greece from the Red Sea, and when most people had become addicted to intemperate enjoyment, and had learned to drink unmixed wine, some of them became quite frantic and out of their minds, while others got so stupified as to resemble the dead. And once, when some men were drinking on the sea-shore, a violent shower came on, and broke up the party, and filled the goblet, which had a little wine left in it, with water. But when it became fine again, the men returned to the same spot, and tasting the new mixture, found that their enjoyment was now not only exquisite, but free from any subsequent pain. And on this account, the Greeks invoke the good Deity at the cup of unmixed wine, which is served round to them at dinner, paying honour to the deity who invented wine; and that was Bacchus. But when the first cup of mixed wine is handed round after dinner, they then invoke Jupiter the Saviour, thinking him the cause of this mixture of wine which is so unattended with pain, as being the author of rain” (Athenaeus Deipnosophists Book XV)."
+                android:textSize="20sp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

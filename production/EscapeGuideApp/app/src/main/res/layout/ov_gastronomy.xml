@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_fast_facts">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="G A S T R O N O M Y"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="100dp"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="270dp"
+        android:layout_marginTop="212dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aliquam ut malesuada velit, vel facilisis dui. Integer malesuada odio in urna auctor dignissim. Curabitur lacinia mi sed urna convallis, rhoncus semper dolor luctus. Integer sed justo imperdiet, dapibus est nec, sollicitudin augue. In non magna mauris. Sed vel justo tincidunt, cursus tellus sit amet; pharetra ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut semper sollicitudin malesuada. Mauris nec dictum metus. In pellentesque elit nibh, ac commodo nunc pulvinar vitae! Phasellus malesuada gravida dictum.\r\n\r\nCurabitur commodo laoreet convallis? Mauris pellentesque feugiat mauris, at pharetra lacus pellentesque at. Nunc nec tortor rutrum, volutpat neque condimentum, malesuada diam. Nullam eleifend felis sit amet turpis tempor, sed pulvinar justo suscipit. In mattis sapien adipiscing porttitor aliquam. Morbi vestibulum massa neque, id convallis justo luctus a. In tincidunt erat vulputate dui ornare, placerat placerat libero consequat. Fusce lorem risus; placerat et facilisis sit amet, dignissim ac urna. Cras mattis felis ut porttitor cursus. Maecenas nec tortor a dui condimentum pulvinar quis non dui. Integer metus elit, accumsan ac fringilla nec, tincidunt a leo nullam."
+                android:textSize="20sp"/>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_fast_facts">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="H E L L E N I C   P O L I C E"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="75dp"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="260dp"
+        android:layout_marginTop="212dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HELLENIC POLICE"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Emergency police service 100, 23310 22233 \nPolice Headquarters of Imathia 23310 76625 \nPolice department of Alexandria 23330 53333 \nSecurity police of Alexandria 23330 53352, 53345 \nMunicipal police of Veria 23310 59562 \nPolice department of Veria 23310 76643 \nSecurity police of Veria 23310 76653 \nPolice department of Naousa 23320 52560 \nSecurity police of Naousa 23320 52570 \nPolice sub direction of Naousa 23320 22220 \nMunicipal police of Naousa 23320 53034, 53038 \nTraffic Police of Alexandria 23330 53341 \nTraffic Police of Veria 23310 76669"
+                android:layout_marginTop="20dp"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="POLICE STATIONS"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aggelochori 23320 47201 \nMeliki 23310 81264 \nPlaty 23330 63333 \nTourist Police of Vergina 23310 92061, 92071"
+                android:layout_marginTop="20dp"
+                android:textSize="16sp"/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_fast_facts">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E M E R G E N C Y"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="260dp"
+        android:layout_marginTop="212dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ΤΗΛΕΦΩΝΑ ΑΜΕΣΗΣ ΑΝΑΓΚΗΣ"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Άμεση επέμβαση 100
+\nΤροχαία 23310 76669
+\nΔιημερεύοντα και διανυκτερεύοντα φαρμακεία 1434
+\nΚέντρο άμεσης βοήθειας 166
+\nΠnυροσβεστική υπηρεσία 199
+\nΔασαρχεία 191
+\nΔΙΑΦΟΡΕΣ ΧΡΗΣΙΜΕΣ ΠΛΗΡΟΦΟΡΙΕΣ
+\nΚέντρο Εξυπηρέτησης πολιτών 1564
+\nΜετεωρολογικό δελτίο χώρας πλην Αττικής 1448"
+                android:layout_marginTop="20dp"
+                android:textSize="16sp"/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

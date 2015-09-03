@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_fast_facts">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C U L T U R A L   I N F O"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="80dp"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="260dp"
+        android:layout_marginTop="212dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CULTURAL CENTERS"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Municipal Amphitheater of Alexandria (open air) 23330 26746, 25555
+\nMunicipal library of Alexandria 23330 26806
+\nMunicipal library of Veria 'Th. Ziogopoulos' 23310 24879
+\nMunicipal library of Naousa 23320 24102
+\nMunicipal library of Platy 23330 53844
+\nMunicipal enterprise of development of Alexandria 23330 53050
+\nMunicipal enterprise of local, cultural and social development of Veria, Art Gallery, 23310 78100
+\nMunicipal enterprise of tourism of Naousa (Hotel 'Vermio') 23320 29311
+\nMunicipal enterprise of development of Platy 23330 53819
+\nMunicipal Conservatory of Platy 23330 53815
+\nMunicipal stadium of Veria 23310 24590, 25883
+\nCentral library of Veria 23310 24494
+\nFolklore training center of Veria 23310 25269
+\nMunicipal cultural organisation of Naousa 23320 29800
+\nHestia of Muses of Naousa 23320 24234
+\nTheater of Naousa 23320 22983
+\nFolklore Association of Alexandria 23330 26742
+\nMusic and Dance Association of Alexandria 23330 27848
+\nLibrary of Alexandria for Children-Adolescents 23330 25500
+\nCultural center of Alexandria 23330 24444
+\nPhilharmonic orchestra-chorus of Alexandria 23330 25998"
+                android:layout_marginTop="20dp"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MUSEUMS"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Archaeological museum of Veria 23310 24972
+\nMuseum of Vergina 23310 92347
+\nByzantine museum of Veria 23310 25147
+\nHistoric and folk life museum of Naousa 23320 22785
+\nMuseum of the Vlachs of Naousa 23320 25944"
+                android:layout_marginTop="20dp"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ARCHAEOLOGICAL SITES"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vergina archaeological site 23310 92347
+\nGuardhouse of the Macedonian graves in Leykadia 23320 41121, 41014
+\nArchaeological site of Leykadia 23320 41121"
+                android:layout_marginTop="20dp"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ATHLETIC CENTERS"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="National stadium of Alexandria 23330 23485
+\nMunicipal gymnasium of Veria (soccer ground of Elia) 23310 27517
+\nNational athletic center, Makryhori 23310 42111, 41810
+\nMunicipal athletic centre of Agios Nikolaos in Naousa 23320 20374
+\nNational swimming pool of Zervohori in Naousa 23320 48144
+\nNational athletic center of Naousa 23320 24200
+\nNational stadium of Veria 23310 25883
+\nNational stadium of Naousa 23320 22566
+\nGreek mountaineering association of Naousa 23320 28567
+\nMountainous Resort of Grammeni Naousa (municipal camping) 23320 44961
+\n“Keravnos” Athletic Association of Aggelochori in Naousa 23320 57560
+\nSkiers and Climbers Association of Veria 23310 26970, 49109
+\nSki center of Vermio “Chriso Elafi” (Golden deer) 23310 49220
+\nFilippio gymnasium of Veria 23310 26230
+\nSki center of 3-5 Pigadia in Naousa 23320 44446, 44981-5
+\nSeli National Ski center 23310 49226, 26237"
+                android:layout_marginTop="20dp"
+                android:textSize="16sp"/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

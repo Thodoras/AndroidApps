@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ic_language"
+    android:gravity="center|right"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:text="Info"
+        android:gravity="center|left"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="32sp"
+        android:layout_marginBottom="-8dp"/>
+
+    <Button
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:text="Μεταφορές"
+        android:id="@+id/info_transportation"
+        android:textColor="#ffffff"
+        android:textSize="28sp"
+        android:layout_marginBottom="-8dp"/>
+
+    <Button
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:text="Πολιτισμός"
+        android:id="@+id/info_civilization"
+        android:textColor="#ffffff"
+        android:textSize="28sp"
+        android:layout_marginBottom="-8dp"/>
+
+    <Button
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:text="Υγεία"
+        android:id="@+id/info_health"
+        android:textColor="#ffffff"
+        android:textSize="28sp"
+        android:layout_marginBottom="-8dp"/>
+
+    <Button
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:text="Τηλέφωνα"
+        android:id="@+id/info_telephones"
+        android:textColor="#ffffff"
+        android:textSize="28sp"
+        android:layout_marginBottom="-8dp"/>
+
+</LinearLayout>

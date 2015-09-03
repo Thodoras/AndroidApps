@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="thodoras.escapeguide" >
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_1"
+        android:label="Escape Guide"
+        android:theme="@style/AppTheme">
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".EscpeGuideLanguage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".EscapeGuideMenu"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"/>
+
+        <activity android:name=".OverviewMenu"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"/>
+
+        <activity android:name=".Sights"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"/>
+
+        <activity android:name=".Gastronomy"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"/>
+
+        <activity android:name=".HotSpots"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"/>
+
+        <activity android:name=".FastFacts"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"/>
+
+        <activity android:name=".OvGastronomy"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"/>
+
+        <activity android:name=".OvWineRoads"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"/>
+
+        <activity android:name=".Info"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"/>
+
+        <activity android:name=".InfoTransportation"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"/>
+
+        <activity android:name=".InfoCivilization"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"/>
+
+        <activity android:name=".InfoHealth"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"/>
+
+        <activity android:name=".InfoTelephones"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"/>
+
+        <activity android:name=".TelEmergency"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"/>
+
+        <activity android:name=".TelHealth"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"/>
+
+        <activity android:name=".TelPolice"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"/>
+
+        <activity android:name=".TelOther"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"/>
+
+        <activity android:name=".TelCulture"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"/>
+
+        <activity android:name=".MoreInfo"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"/>
+
+        <activity android:name=".Routes"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"/>
+
+        <activity android:name=".Offers"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"/>
+
+        <activity android:name=".Maps"
+            android:label="@string/app_name"/>
+
+        <activity android:name=".MoreMoreInfo"
+            android:screenOrientation="portrait"
+            android:label="Escape Guide"/>
+
+        <activity android:name=".Grid"
+            android:screenOrientation="portrait"
+            android:label="Escape Guide"/>
+
+        <activity android:name=".WebNet"
+            android:label="Escape Guide"/>
+
+        <activity android:name=".Credits"
+            android:screenOrientation="portrait"
+            android:label="Escape Guide"/>
+
+        <activity android:name=".Contact"
+            android:screenOrientation="portrait"
+            android:label="Escape Guide"/>
+
+    </application>
+
+</manifest>

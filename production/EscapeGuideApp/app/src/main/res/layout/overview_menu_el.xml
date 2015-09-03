@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ic_language"
+    android:gravity="center|right"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:text="Overview"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="32sp"
+        android:layout_marginBottom="-8dp"/>
+
+    <Button
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:text="Γεγονότα"
+        android:id="@+id/ov_fast_facts"
+        android:textColor="#ffffff"
+        android:textSize="28sp"
+        android:layout_marginBottom="-8dp"/>
+
+    <Button
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:text="Γαστρονομία"
+        android:id="@+id/ov_gastronomy"
+        android:textColor="#ffffff"
+        android:textSize="28sp"
+        android:layout_marginBottom="-8dp"/>
+
+    <Button
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:text="Δρόμοι του κρασιού."
+        android:id="@+id/wine_roads"
+        android:textColor="#ffffff"
+        android:textSize="28sp"
+        android:layout_marginBottom="-8dp"/>
+
+</LinearLayout>

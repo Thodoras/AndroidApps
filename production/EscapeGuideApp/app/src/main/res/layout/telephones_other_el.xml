@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_fast_facts">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Υ Π Η Ρ Ε Σ Ι Ε Σ"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="260dp"
+        android:layout_marginTop="212dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp">
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ΑΛΛΕΣ ΥΠΗΡΕΣΙΕΣ"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Πυροσβεστική Αλεξάνδρειας 23330 24199
+\nΠυροσβεστική Βέροιας 23310 22222
+\nΠυροσβεστική Βεργίνας 23310 92199
+\nΠυροσβεστική Νάουσας 23320 27590
+\nΤμήμα συνοριακής φύλαξης Γεωργιανών 23310 98000-1
+\nΤμήμα συνοριακής φύλαξης Νάουσας 23320 23767
+\nΔασαρχείο Βέροιας 191, 23310 26499
+\nΔασαρχείο Νάουσας 191, 23320 22280, 25525"
+                android:layout_marginTop="20dp"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ΤΑΧΥΔΡΟΜΙΚΕΣ ΥΠΗΡΕΣΙΕΣ"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Αλεξάνδρειας 23330 23526
+\nΒέροιας 23310 20664
+\nΕιρηνούπουλης 23320 48111
+\nΚοπανού 23320 43240
+\nΜακροχωρίου 23310 41452
+\nΜελίκης 23310 81755
+\nΝάουσας 23320 22311
+\nΠλατέος 23330 63270"
+                android:layout_marginTop="20dp"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ΣΥΓΚΟΙΝΩΝΙΕΣ ΚΤΕΛ"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Από τον Υπεραστικό Σταθμό Κηφισού-Αθήνας, 210 5124914, εκτελούνται καθημερινά τρία δρομολόγια για Βέροια στις 8.30, 15.00 και 21.00 αντίστοιχα.
+\n Από τον Υπεραστικό σταθμό Θεσσαλονίκης, 2310 544133, εκτελούνται καθημερινά δρομολόγια για Βέροια ανά ½ ώρα.
+\nΑλεξάνδρεια-Υπεραστικές γραμμές 23330 23312
+\nΒέροια-Υπεραστικές γραμμές 23310 22342, 26100
+\nΒέροια-Αστικές γραμμές 23310 23334
+\nΝάουσα-Υπεραστικές γραμμές 23320 22223
+\nΝάουσα-Αστικές γραμμές 23320 28500
+\nΣταθμός Μελίκης 23310 82370"
+                android:layout_marginTop="20dp"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ΟΣΕ"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Σιδηροδρομική γραμμή:
+\nΑθηνών-Λάρισας-Κατερίνης-Κοζάνης-Έδεσσας-Βέροιας-Πλατέος-Θεσσαλονίκης.
+\nΚεντρικός σιδηροδρομικός σταθμός Βέροιας 1110, 23310 24444
+\nΆλλοι Σταθμοί:
+\nΑλεξάνδρειας 23330 23210
+\nΝάουσας 1110, 23320 41535
+\nΠλατέος 23330 63216"
+                android:textSize="16sp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_fast_facts">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="H E A L T H   S E R V I C E S"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="75dp"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="260dp"
+        android:layout_marginTop="212dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp">
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HEALTH SERVICES"
+                android:textStyle="bold"
+                android:textSize="22sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Emergency medical services of Veria 166, 23310 59151 \nMedical center of Alexandria 23330 26901-4 \nGeneral Hospital of Veria 23310 22082, 59100 \nGeneral Hospital of Veria, Blood donation center 23310 29600 \nGeneral Hospital of Veria, for appointment 23310 59400 \nHospital of Naousa 23320 22200 \nHospital of Naousa, Blood donation center 23320 59200"
+                android:layout_marginTop="20dp"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="REGIONAL CLINICS"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginTop="30dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Agios Georgios 23310 51203 \nAggelochori 23320 47202 \nAgathia 23310 99203 \nVergina 23310 92336 \nVrysaki 23330 51010 \nGeorgianoi 23310 98075 \nEpiskopi 23330 91211 \nKampochori 23330 91000 \nKopanos 23320 41128 \nKoryfi 23330 41201 \nMakrohori 23310 41888 \nMarina 23320 44480 \nMeliki 23310 81204 \nNisio 23330 51533 \nXehasmeni 23310 39154 \nPlaty 23330 63243 \nPolydentro 23310 94260 \nRizomata 23310 96222 \nStavros 23310 39666 \nTrikala 23330 81207 \nFytia 23310 93192"
+                android:layout_marginTop="20dp"
+                android:textSize="16sp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

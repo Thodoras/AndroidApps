@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_fast_facts">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Υ Π Η Ρ Ε Σ Ι Ε Σ   Υ Γ Ε Ι Α Σ"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="260dp"
+        android:layout_marginTop="212dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp">
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ΥΠΗΡΕΣΙΕΣ ΥΓΕΙΑΣ"
+                android:textStyle="bold"
+                android:textSize="22sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Κέντρο άμεσης βοήθειας (ΕΚΑΒ) Βέροιας 166, 23310 59151
+\nΚέντρο υγείας Αλεξάνδρειας 23330 26901-4
+\nΓενικό νοσοκομείο Βέροιας 23310 22082, 59100
+\nΓενικό νοσοκομείο Βέροιας, Κέντρο αιμοδοσίας 23310 29600
+\nΓενικό νοσοκομείο Βέροιας, Ραντεβού 23310 59400
+\nΝοσοκομείο Νάουσας 23320 22200
+\nΝοσοκομείο Νάουσας, Κέντρο Αιμοδοσίας 23320 59200"
+                android:layout_marginTop="20dp"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ΠΕΡΙΦΕΡΕΙΑΚΑ ΙΑΤΡΕΙΑ"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginTop="30dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Αγ. Γεωργίου 23310 51203
+\nΑγγελοχωρίου 23320 47202
+\nΑγκαθιάς 23310 99203
+\nΒεργίνας 23310 92336
+\nΒρυσακίου 23330 51010
+\nΓεωργιανών 23310 98075
+\nΕπισκοπής 23330 91211
+\nΚαμποχωρίου 23330 91000
+\nΚοπανού 23320 41128
+\nΚορυφής 23330 41201
+\nΜακροχωρίου 23310 41888
+\nΜαρίνας 23320 44480
+\nΜελίκης 23310 81204
+\nΝησίου 23330 51533
+\nΞεχασμένης 23310 39154
+\nΠλατέος 23330 63243
+\nΠολυδένδρου 23310 94260
+\nΡιζωμάτων 23310 96222
+\nΣταυρού 23310 39666
+\nΤρικάλων 23330 81207
+\nΦυτείας 23310 93192"
+                android:layout_marginTop="20dp"
+                android:textSize="16sp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

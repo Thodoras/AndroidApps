@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ic_language"
+    android:gravity="center|right"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:text="Telephones"
+        android:gravity="center|left"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="32sp"
+        android:layout_marginBottom="-8dp"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:text="Emergency"
+        android:id="@+id/button_tel_emergency"
+        android:textColor="#ffffff"
+        android:textSize="28sp"
+        android:layout_marginBottom="-8dp"/>
+
+    <Button
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:text="Health Care"
+        android:id="@+id/button_tel_healthcare"
+        android:textColor="#ffffff"
+        android:textSize="28sp"
+        android:layout_marginBottom="-8dp"/>
+
+    <Button
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:text="Hellenic Police"
+        android:id="@+id/button_tel_police"
+        android:textColor="#ffffff"
+        android:textSize="28sp"
+        android:layout_marginBottom="-8dp"/>
+
+    <Button
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:text="Other Services"
+        android:id="@+id/button_tel_other"
+        android:textColor="#ffffff"
+        android:textSize="28sp"
+        android:layout_marginBottom="-8dp"/>
+
+    <Button
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:text="Cultural Info"
+        android:id="@+id/button_tel_cultural"
+        android:textColor="#ffffff"
+        android:textSize="28sp"
+        android:layout_marginBottom="-8dp"/>
+
+</LinearLayout>

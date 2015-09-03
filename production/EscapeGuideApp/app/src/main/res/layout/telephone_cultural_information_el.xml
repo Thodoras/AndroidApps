@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_fast_facts">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ΠΛΗΡΟΦΟΡΙΕΣ ΓΙΑ ΠΟΛΙΤΙΣΜΟ"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="260dp"
+        android:layout_marginTop="212dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ΠΟΛΙΤΙΣΤΙΚΑ ΚΕΝΤΡΑ
+"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Δημοτικό Αμφιθέατρο Αλεξάνδρειας (θερινό) 23330 26746, 25555
+\nΔημοτική βιβλιοθήκη Αλεξάνδρειας 23330 26806
+\nΔημοτική βιβλιοθήκη Βέροιας 'Θ. Ζιωγόπουλου' 23310 24879
+\nΔημοτική βιβλιοθήκη Νάουσας 23320 24102
+\nΔημοτική βιβλιοθήκη Πλατέος 23330 53844
+\nΔημοτική επιχείρηση ανάπτυξης Αλεξάνδρειας 23330 53050
+\nΔημοτική επιχείρηση τοπικής πολιτιστικής κοινωνικής ανάπτυξης Βέροιας, Χώρος Τεχνών 23310 78100
+\nΔημοτική επιχείρηση τουρισμού Νάουσας (Ξενοδοχείο 'Βέρμιο') 23320 29311
+\nΔημοτική επιχείρηση ανάπτυξης Πλατέος 23330 53819
+\nΔημοτική μουσική σχολή Πλατέος 23330 53815
+\nΔημοτικό στάδιο Βέροιας 23310 24590, 25883
+\nΚεντρική βιβλιοθήκη Βέροιας 23310 24494
+\nΚέντρο Λαϊκής Επιμόρφωσης Βέροιας 23310 25269
+\nΔημοτικός πολιτιστικός οργανισμός Νάουσας 23320 29800
+\nΕστία μουσών Νάουσας 23320 24234
+\nΘέατρο Νάουσας 23320 22983
+\nΌμιλος λαογραφικός Αλεξάνδρειας 23330 26742
+\nΌμιλος μουσικοχορευτικός Αλεξάνδρειας 23330 27848
+\nΠαιδική-εφηβική βιβλιοθήκη Αλεξάνδρειας 23330 25500
+\nΠνευματικό κέντρο Αλεξάνδρειας 23330 24444
+\nΦιλαρμονική-χορωδία Αλεξάνδρειας 23330 25998"
+                android:layout_marginTop="20dp"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ΜΟΥΣΕΙΑ"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Μουσείο Αρχαιολογικό Βέροιας 23310 24972
+\nΜουσείο Βεργίνας 23310 92347
+\nΜουσείο Βυζαντινό Βέροιας 23310 25147
+\nΜουσείο Ιστορικό και Λαογραφικό Νάουσας 23320 22785
+\nΜουσείο Βλάχων Νάουσας 23320 25944"
+                android:layout_marginTop="20dp"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ΑΡΧΑΙΟΛΟΓΙΚΟΙ ΧΩΡΟΙ"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Αρχαιολογικός χώρος Βεργίνας 23310 92347
+\nΦυλάκιο μακεδονικών τάφων Λευκαδίων 23320 41121, 41014
+\nΑρχαιολογικός χώρος Λευκαδίων 23320 41121"
+                android:layout_marginTop="20dp"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ΑΘΛΗΤΙΚΑ ΚΕΝΤΡΑ"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Εθνικό στάδιο Αλεξάνδρειας 23330 23485
+\nΔημοτικό γυμναστήριο Βέροιας (γήπεδο Εληάς) 23310 27517
+\nΕθνικό αθλητικό κέντρο Μακροχωρίου Βέροιας 23310 42111, 41810
+\nΔημοτικό αθλητικό κέντρο Αγ. Νικολάου Νάουσας 23320 20374
+\nΕθνικό κολυμβητήριο Ζερβοχωρίου Νάουσας 23320 48144
+\nΕθνικό αθλητικό κέντρο Νάουσας 23320 24200
+\nΕθνικό στάδιο Βέροιας 23310 25883
+\nΕθνικό στάδιο Νάουσας 23320 22566
+\nΕλληνικός ορειβατικός σύλλογος Νάουσας 23320 28567
+\nΟρεινό θέρετρο Γραμμένης Νάουσας (δημοτικό Camping) 23320 44961
+\nΣύλλογος αθλητικός Αγγελοχωρίου Νάουσας 'Κεραυνός' 23320 57560
+\nΣύλλογος χιονοδρόμων ορειβατών Βέροιας 23310 26970, 49109
+\nΧιονοδρομικό κέντρο Βερμίου «Χρυσό Ελάφι» 23310 49220
+\nΦιλίππειο γυμναστήριο Βέροιας 23310 26230
+\nΧιονοδρομικό κέντρο Τρία-Πέντε Πηγάδια Νάουσας 23320 44446, 44981-5
+\nΕθνικό χιονοδρομικό κέντρο Σελίου 23310 49226, 26237"
+                android:layout_marginTop="20dp"
+                android:textSize="16sp"/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

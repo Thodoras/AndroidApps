@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_fast_facts">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="O T H E R   S E R V I C E S"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="80dp"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="260dp"
+        android:layout_marginTop="212dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp">
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OTHER SERVICES"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fire brigade of Alexandria 23330 24199 \nFire brigade of Veria 23310 22222 \nFire brigade of Vergina 23310 92199 \nFire brigade of Naousa 23320 27590 \nDepartment of Frontier Keep of Georgianoi 23310 98000-1 \nDepartment of Frontier Keep of Naousa 23320 23767 \nForest inspection of Veria 191, 23310 26499 \nForest inspection of Naousa 191, 23320 22280, 25525 \National Institution for Youth of Naousa 23320 28617, 52032 \nNational Organization of Welfare 23310 96342"
+                android:layout_marginTop="20dp"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CITIZEN SERVICE CENTRES"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Main telephone line 1564 \nAgios Georgios 23310 51099, 51199 \nAggelochori 23320 52978, 52980 \nAlexandria 23330 22812 \nVergina 23310 92570 \nVeria 23310 77500 \nKavasila 23310 77177 \nKopanos 23320 43241, 43244 \nMakrohori 23310 42343 \nMeliki 23310 82308 \nNaousa 23320 52036 \nPlaty 23330 53841-2 \nRizomata 23310 96556 \nPrefectural Authority of Imathia 23310 77970, 77980"
+                android:layout_marginTop="20dp"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="POST OFFICE SERVICES"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alexandria 23330 23526 \nVeria 23310 20664 \nIrinoupoli 23320 48111 \nKopanos 23320 43240 \nMakrochori 23310 41452 \nMeliki 23310 81755 \nNaousa 23320 22311 \nPlaty 23330 63270"
+                android:layout_marginTop="20dp"
+                android:textSize="16sp"/>
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TRANSPORT"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bus Services"
+                android:textSize="18sp"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Departures from the Interurban Station of Kifissos-Athens, 210 5124914, to Veria three times a day, at 8.30, 15.00 and 21.00 respectively. \nDaily departures from the Coach Service of Thessalonica, 2310 544133, to Veria every half-hour. \nAlexandria-Coach Services 23330 23312 \nVeria-Coach Services 23310 22342, 26100 \nVeria-Urban Bus Lines 23310 23334 \nNaousa-Coach Services 23320 22223 \nNaousa-Urban Bus Lines 23320 28500 \nMeliki-Urban Bus Lines 23310 82370"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hellenic Railways Railroad Station"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Railway railroad passing through:
+Athens-Larissa-Katerini-Kozani-Edessa-Veria-Platy-Thessalonica.
+Central Railways Station of Veria 1110, 23310 24444 \nOther stations: \nAlexandria 23330 23210 \nNaousa 1110, 23320 41535 \nPlaty 23330 63216"
+                android:textSize="16sp"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="USEFUL INFORMATION"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Citizen Services Centre 1564 \nCountry weather report 1448"
+                android:layout_marginTop="20dp"
+                android:textSize="16sp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

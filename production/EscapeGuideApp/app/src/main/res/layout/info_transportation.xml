@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_fast_facts">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="T R A N S P O R T A T I O N"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="75dp"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:layout_marginTop="212dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Transportation \nAthens International Airport 'Eleftherios Venizelos': \n210 3530000 \nwww.aia.gr \n\r\nThessaloniki International Airport 'Macedonia':
+\n2310 985000, 2310 473212
+\nwww.thessalonikiairport.gr/ \n\r\nAegean Airlines: 210 6261000, 801 112 0000
+\nwww.aegeanair.gr \n\r\nOlympic Air: 210 3550500, 801 801 0101
+\nwww.olympicair.com. \n\r\nFerry Schedules: 14541, 14944 \n\r\nPiraeus Port: 210 4147800 and 14541 (ship schedules)
+\nwww.olp.gr \n\r\nPatras Port: 2610 341002
+\nwww.patrasport.gr \n\r\nAnek Lines: 210 4197470
+\nwww.anek.gr \n\r\nMinoan Lines: 18175, 801 11 75000
+\nwww.minoan.gr \n\r\nSuperfast Ferries
+\nTel.: 210 8919130, 18130
+\nwww.superfast.com \n\r\nIntercity Bus Routes (KTEL): 14505 \n\r\nHellenic Railways Organization (OSE):14511
+\nwww.ose.gr
+\n\r\nAthens Metro: 214 4146400 (information on schedules and tickets for fixed rail services)
+\nwww.stasy.gr
+
+
+\n\r\r\nHOW TO GET HERE
+
+\n\r\nYou can come to Greece by plane, road or by sea.
+
+\n\r\nBy plane
+\nBy plane you will arrive at the Athens International Airport 'Eleftherios Venizelos' or one of the regional airports * in the country that serve, apart from local flights, direct flights from abroad and charter flights. The Athens International Airport serves daily hundreds of flights from all over the world. It is located 33 km from Athens city centre and is easily accessible by public transport or by car via Attiki Odos, which is the ring road of the wider metropolitan area of ​​Athens. There are frequent connections to the centre and various parts of the city and to the port of Piraeus, via metro, suburban railway and buses.
+
+\nInternational Airports in Greece
+\nAlexandroupolis
+\nZante
+\nHeraklion Crete
+\nThessalonica
+\nKavala
+\nKalamata
+\nCorfu
+\nKefalonia
+\nKos
+\nLesvos (Mytilini)
+\nLimnos
+\nRhodes
+\nSamos
+\nChania
+
+\n\r\nBy boat
+\nThe ports of the country welcome millions of visitors each year from all around the world. The most important of these are the ports of Piraeus, Patras, Igoumenitsa and Thessaloniki.
+
+\n\r\nThe port of Piraeus, at 15 km away from the city centre, is the main port of Athens and the main commercial port of the country. Ships depart from here to the Cyclades Islands, the Dodecanese, North Aegean, Crete, the Saronic Gulf, but also for international destinations on an everyday basis.
+
+\n\r\nOther passenger ports of Attica, which serve some destinations in the Aegean, include Rafina, on the eastern coast of Attica (about 30 minutes from the city centre), and the port of Lavrio in the southernmost tip of Attica (about an hour from centre of the city).
+
+\n\r\nThe port of Patras (220 km from Athens via the National Road of Athens-Patras) is connected with ferry with Italy (ports of Ancona, Bari, Venice and Trieste), with daily routes, bringing about half of the total international traffic of the country.
+
+\n\r\nGreece is also connected to Turkey through six ports of the Aegean. Specifically, on a daily basis many itineraries are conducted such as Mytilene-Ayvalik, Chios-Cesme, Samos - Kusadasi and Kos - Kusadasi while frequent routes link Rhodes with Bodrum and Marmaris as well as Kalymnos with Marmaris.
+
+\n\r\nBy train
+\nThe Greek railway network connects the North and South parts of the country, and especially Athens, Patras and Thessaloniki, as well as Greece with the Balkan countries, and subsequently to the rest of Europe. The routes are operated on a regular daily basis with the Intercity type of trains (express trains) and conventional trains.
+
+\n\r\nGreece is connected by rail with Bulgaria, Serbia and Macedonia through the services of Thessaloniki-Sofia and Thessaloniki-Skopje-Belgrade. The itineraries are daily, with one train a day to and from Thessaloniki.
+
+\n\r\nBy car
+\nMany visitors choose to enter the country by road, through Albania, Bulgaria, FYROM and Turkey, but also from Italy using the ferry link between the two countries. The entrance gates to Greece, in the northern and eastern land borders of the country, are: Exochi in Drama for Bulgaria, Eyzonoi of Kilkis for FYROM, Kakavia of Ioannina for Albania and Kipoi of Evros for Turkey.
+
+\n\r\nInternational Driving Permit is required for all drivers who are not citizens of the European Union, along with the official license of the country."
+                android:textSize="20sp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
